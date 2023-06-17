@@ -159,7 +159,7 @@ function Quiz() {
         </div>
 
         <div className="button-container">
-          <button className="red-btn" onClick={handleNewGame}>New Game</button>
+          <button className="red-btn" onClick={handleNewGame}>New Quiz</button>
           <button className="red-btn" onClick={handleAccount}>Account</button>
           <button className="red-btn" onClick={handleAbout}>About</button>
         </div>
