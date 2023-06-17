@@ -39,3 +39,4 @@ export const Register = (props) => {
     </div>
   )
 }
+
