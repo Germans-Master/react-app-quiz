@@ -33,10 +33,8 @@ describe('Login Component', () => {
   test('clicking on the register link should trigger the onFormSwitch prop', () => {
     const mockOnFormSwitch = jest.fn();
     render(<Login onFormSwitch={mockOnFormSwitch} />);
-    // Find and click the register link
     const registerLink = screen.getByText('Don\'t have an account? Register here.');
     fireEvent.click(registerLink);
-    // Verify that the onFormSwitch prop has been called with the correct value
     expect(mockOnFormSwitch).toHaveBeenCalledWith('register');
   });
 
